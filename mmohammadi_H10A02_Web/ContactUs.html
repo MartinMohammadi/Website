@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./Styles/site.css">
+    <link rel="icon" type="image/x-icon" href="/images/icons8-car-64.png">
+</head>
+<body>
+    <div class="ContactContainer">
+        <main>
+            <nav class="nav-container">
+                <div class="logo-img-container">
+                    <img src="./images/waterbanner.png" id="logo-img" alt="logo">
+                </div>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./AboutUs.html">About Us</a></li>
+                    <li><a href="./Appointments.html">Book Now!</a></li>
+                    <li><a href="./ContactUs.html">Give Us A Call!</a></li>
+                    <li><a href="./Service.html">Services</a></li>
+                    <li><a href="./Availability.html">Our Availability</a></li>
+                </ul>
+            </nav>
+        </main>
+    </div>
+    <div class="content">
+        <h2 class="ContactText">How to reach us</h2>
+        <p class="ContactText">To reach us via email, <a href="mailto:2376084@cegep-heritage.com">Email Us</a>!</p>
+        <p class="ContactText">If you have any concerns or need assistance, <a href="tel:8195765345">Click to call a customer support rep.</a></p>
+        <h2>Unhappy? Let us Know</h2>
+        <form action="ContactUs.html" method="get">
+            <fieldset>
+                <legend>
+                    What Problems are you Experiencing?
+                </legend>
+                <select name="problem" id="problem">
+                    <option value="">--Select One--</option>
+                    <option value="Minor">Minor Interior Damage</option>
+                    <option value="Major">Major Interior Damage</option>
+                    <option value="MinorOut">Minor Exterior Damage</option>
+                    <option value="MajorOut">Major Exterior Damage</option>
+                    <option value="unspecified">Unspecified Damage</option>
+                    <option value="noGood">Not Satisfactory</option>
+                    <option value="missing">Missing Valuable</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Tell us What Happened Specifically</legend>
+                <textarea name="event" id="event" cols="30" rows="4"></textarea>
+            </fieldset>
+            <div id="actions">
+                <input type="submit" value="Submit Complaint">
+        </form>
+    </div>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./AboutUs.html">About Us</a></li>
+                <li><a href="./Appointments.html">Booking</a></li>
+                <li><a href="./ContactUs.html">Contact Us</a></li>
+                <li><a href="./Service.html">Services</a></li>
+                <li><a href="./Availability.html">Our Availability</a></li>
+            </ul>
+        </nav>
+        <p>COPYRIGHT &copy;, 2023 ShinPro Auto - ALL RIGHTS RESERVED</p>
+    </footer>
+</body>
+</html>
